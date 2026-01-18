@@ -1,4 +1,4 @@
-import Container from "@mui/material/Container";
+import { Box } from "@mui/material";
 import BarraSistema from "./components/barra-sistema";
 import CollapsedBreadcrumbs from "./components/collapsed-beadcrumbs";
 import { AppRouter } from "./routes/AppRouter";
@@ -7,10 +7,11 @@ function App() {
   return (
     <>
       <BarraSistema />
-      <Container sx={{ mt: 4 }}>
+
+      <Box sx={{ px: 3, py: 2 }}>
         <CollapsedBreadcrumbs />
         <AppRouter />
-      </Container>
+      </Box>
     </>
   );
 }
