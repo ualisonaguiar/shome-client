@@ -73,7 +73,7 @@ export default function ListagemUsuarioPage() {
               <Button
                 variant="contained"
                 component={RouterLink}
-                to="/usuario/novo"
+                to="/usuarios/novo"
               >
                 Novo
               </Button>

@@ -40,7 +40,7 @@ export default function BarraSistema() {
         </Button>
 
         <Menu anchorEl={anchorEl} open={open} onClose={handleClose}>
-          <MenuItem component={RouterLink} to="/usuario" onClick={handleClose}>
+          <MenuItem component={RouterLink} to="/usuarios" onClick={handleClose}>
             Usuário
           </MenuItem>
         </Menu>

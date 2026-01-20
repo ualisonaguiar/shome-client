@@ -8,8 +8,8 @@ export function AppRouter() {
     <Routes>
       <Route path="/" element={<PaginaInicialPage />} />
 
-      <Route path="/usuario" element={<ListagemUsuarioPage />} />
-      <Route path="/usuario/novo" element={<NovoUsuarioPage />} />
+      <Route path="/usuarios" element={<ListagemUsuarioPage />} />
+      <Route path="/usuarios/novo" element={<NovoUsuarioPage />} />
     </Routes>
   );
 }
